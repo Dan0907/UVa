@@ -1,3 +1,3 @@
 # UVa
 My solutions for UVa problems.  
-Written in ANSI C.
+Written in **ANSI C**.
