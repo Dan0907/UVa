@@ -1,2 +1,2 @@
 # UVa
-Solutions for UVa problems.
+My solutions for UVa problems.
