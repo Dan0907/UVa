@@ -2,10 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define bool char
-
 char str[205];
-bool table[14][10] = {
+int table[14][10] = {
     {0, 1, 1, 1, 0, 0, 1, 1, 1, 1},
     {0, 1, 1, 1, 0, 0, 1, 1, 1, 0},
     {0, 1, 1, 1, 0, 0, 1, 1, 0, 0},
@@ -64,9 +62,9 @@ int main(void)
     case_num = atoi(str);
     while (case_num--) {
         int count[10] = {0};
-        bool init[10] = {0};
-        bool *temp = init;
-        bool *current;
+        int init[10] = {0};
+        int *temp = init;
+        int *current;
         int len;
         fgets(str, 205, stdin);
         str[strcspn(str, "\n")] = 0;

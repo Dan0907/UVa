@@ -2,8 +2,6 @@
 
 int fib[100000];
 
-
-
 int main(void)
 {
     int i;

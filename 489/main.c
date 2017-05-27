@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-char ans_flag[26];
-char guess_flag[26];
+int ans_flag[26];
+int guess_flag[26];
 char ans_str[100];
 char guess_str[100];
 
@@ -14,8 +14,8 @@ int main(void)
     int ans_count;
     int i;
     while (scanf("%d", &round) && round != -1) {
-        memset(ans_flag, 0, 26);
-        memset(guess_flag, 0, 26);
+        memset(ans_flag, 0, sizeof(int) * 26);
+        memset(guess_flag, 0, sizeof(int) * 26);
         scanf("%s%s", ans_str, guess_str);
         guess_count = 7;
         ans_count = 0;

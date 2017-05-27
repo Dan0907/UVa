@@ -24,6 +24,7 @@ int main(void)
                 y = temp + 1;
                 x = (temp + 1) * 2 - r;
             }
+
         } else {
             x = 1;
             y = temp;

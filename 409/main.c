@@ -23,7 +23,8 @@ char my_strncmp(char *a, char *b, int num)
     int i = 0;
     char flag = 0;
     while (i < num) {
-        if (*(a + i) == 0 || *(b + i) == 0 || tolower(*(a + i)) != tolower(*(b + i))) {
+        if (*(a + i) == 0 || *(b + i) == 0
+            || tolower(*(a + i)) != tolower(*(b + i))) {
             flag = 1;
             break;
         }

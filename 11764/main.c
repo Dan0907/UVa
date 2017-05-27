@@ -14,10 +14,6 @@ int main(void)
         int low = 0;
         scanf("%d", &num);
         scanf("%d", &temp);
-        if (num == 1) {
-            printf("Case %d: 0 0\n", i);
-            continue;
-        }
         for (j = 1; j < num; j++) {
             scanf("%d", &now);
             if (now - temp > 0)

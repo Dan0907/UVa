@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 char str[100];
+
 int main(void)
 {
-    int round;
+    int test_num;
     int i;
-    scanf("%d", &round);
-    while (round--) {
+    scanf("%d", &test_num);
+    while (test_num--) {
         int correct = 0;
         int sum = 0;
         scanf("%s", str);

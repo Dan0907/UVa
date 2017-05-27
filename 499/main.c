@@ -45,7 +45,7 @@ int main(void)
         for (i = 0; i < 26; i++)
             if (low_alph[i] == max)
                 printf("%c", i + 'a');
-        printf(" %d\n",max);
+        printf(" %d\n", max);
     }
     return 0;
 }

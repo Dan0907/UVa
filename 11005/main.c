@@ -2,7 +2,6 @@
 
 int digit[36];
 
-
 int main(void)
 {
     int case_num, i, base, c, n;

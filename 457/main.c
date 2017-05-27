@@ -32,7 +32,9 @@ int main(void)
     int i;
     scanf("%d", &case_num);
     while (case_num--) {
-        int bact_seq[40] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1};
+        int bact_seq[40] = {
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+        };
         int temp_seq[40];
         for (i = 0; i < 10; i++)
             scanf("%d", dna + i);
@@ -42,7 +44,8 @@ int main(void)
 
             temp_seq[0] = dna[bact_seq[0] + bact_seq[1]];
             for (j = 1; j < 39; j++)
-                temp_seq[j] = dna[bact_seq[j - 1] + bact_seq[j] + bact_seq[j + 1]];
+                temp_seq[j] = dna[bact_seq[j - 1] + bact_seq[j]
+                                  + bact_seq[j + 1]];
             temp_seq[39] = dna[bact_seq[38] + bact_seq[39]];
 
             for (j = 0; j < 40; j++)

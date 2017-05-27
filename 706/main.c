@@ -17,7 +17,6 @@ int num[10][7] = {
 
 char n[11];
 
-
 int main(void)
 {
     int s;
@@ -59,7 +58,6 @@ int main(void)
                 
                 if (i != len - 1)
                     printf(" ");
-
             }
             printf("\n");
         }
@@ -98,7 +96,6 @@ int main(void)
 
                 if (i != len - 1)
                     printf(" ");
-
             }
             printf("\n");
         }
@@ -118,7 +115,6 @@ int main(void)
                 printf(" ");
         }
         printf("\n\n");
-
     }
     return 0;
 }
