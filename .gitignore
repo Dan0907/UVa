@@ -1,15 +1,10 @@
 # Emacs temporary files
-
 \#*\#
 *~
 .\#*
 
-
 # Executables
-
 *.out
 
-
 # Swap files
-
 *.swp
